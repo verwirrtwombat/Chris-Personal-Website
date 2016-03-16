@@ -41,15 +41,10 @@ a:visited {
   color: #5F04B4;
 }
 
-img {
-  float: center center; 
-  margin: 20px 10px 10px 0px; 
+.img-responsive {
+  margin-top: 20px; 
   width: 100%; 
   max-width: 350px;
-}
-
-.connect {
-  /*float: center;*/
 }
 
 .icon-link {
@@ -108,38 +103,24 @@ img {
   visibility: visible;      
 }
 
-  @keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    } 
-  }
-
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    } 
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
-/*needs work
-@media screen and (max-width: 1100px) {
-            h2 span { position: static; 
-              display: block; }
-*/
-@media screen and (max-width: 768px) {
-.col-sm-4 {
-  text-align: center;
-  margin: 25px 0;
+@keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  } 
 }
 
-}
-@media screen and (max-width: 480px) {
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
 }
